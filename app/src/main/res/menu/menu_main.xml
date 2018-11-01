@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.edu.tarc.lab2_2menu.MainActivity">
+    <item
+        android:id="@+id/action_zoom_in"
+        android:icon="@drawable/ic_zoom_in_white_24dp"
+        android:orderInCategory="100"
+        android:title="Zoom In"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_zoom_out"
+        android:icon="@drawable/ic_zoom_out_white_24dp"
+        android:orderInCategory="101"
+        android:title="Zoom Out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="102"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="103"
+        android:title="About Us"
+        app:showAsAction="never" />
+</menu>
